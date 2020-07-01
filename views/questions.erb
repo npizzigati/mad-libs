@@ -1,0 +1,6 @@
+<form method="POST" action="/">
+  <% @prompts.each do |prompt| %>
+  <p><%= prompt[:name] %> <input type="text" name="answers[]"></p>
+  <% end %>
+  <input type="submit">
+</form>

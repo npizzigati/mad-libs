@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Top Level Namespace
+  
+    &mdash; Documentation by YARD 0.9.24
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo;
+    
+    
+    <span class="title">Top Level Namespace</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Top Level Namespace
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+</div>
+
+
+  
+    <h2>
+      Constant Summary
+      <small><a href="#" class="constants_summary_toggle">collapse</a></small>
+    </h2>
+
+    <dl class="constants">
+      
+        <dt id="STORY-constant" class="">STORY =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Array containing “Mad Libs” stories</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='const'>Stories</span><span class='op'>::</span><span class='const'>STORIES</span><span class='period'>.</span><span class='id identifier rubyid_sample'>sample</span></pre></dd>
+      
+    </dl>
+  
+
+
+
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#extract-instance_method" title="#extract (instance method)">#<strong>extract</strong>(prestory)  &#x21d2; Array&lt;String&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Extracts descriptors surrounded by double parentheses from prestory.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#extract_parts-instance_method" title="#extract_parts (instance method)">#<strong>extract_parts</strong>(string)  &#x21d2; Array&lt;String&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Extracts variable and term type from 2 part descriptors.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#fill_in_blanks-instance_method" title="#fill_in_blanks (instance method)">#<strong>fill_in_blanks</strong>(story, replacements)  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Replaces descriptor fields in story with user&#39;s words.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#has_variable_name%3F-instance_method" title="#has_variable_name? (instance method)">#<strong>has_variable_name?</strong>(descriptor)  &#x21d2; Boolean </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Determines if descriptor contains a variable name in addition to term type in the format variable: term_type.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#obtain_words-instance_method" title="#obtain_words (instance method)">#<strong>obtain_words</strong>(descriptors)  &#x21d2; Array&lt;String&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Obtains words from user and propagates them to descriptor variables.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#user_input-instance_method" title="#user_input (instance method)">#<strong>user_input</strong>(term_type)  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Receives user&#39;s chosen word for term type.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="extract-instance_method">
+  
+    #<strong>extract</strong>(prestory)  &#x21d2; <tt>Array&lt;String&gt;</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Extracts descriptors surrounded by double parentheses from prestory</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;String&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>descriptors, without the parentheses</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+70
+71
+72</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/mad_libs.rb', line 70</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_extract'>extract</span><span class='lparen'>(</span><span class='id identifier rubyid_prestory'>prestory</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_prestory'>prestory</span><span class='period'>.</span><span class='id identifier rubyid_scan'>scan</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>\(\((.+?)\)\)</span><span class='regexp_end'>/</span></span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_flatten'>flatten</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="extract_parts-instance_method">
+  
+    #<strong>extract_parts</strong>(string)  &#x21d2; <tt>Array&lt;String&gt;</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Extracts variable and term type from 2 part descriptors</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'></span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;String&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>variable, term_type</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+102
+103
+104</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/mad_libs.rb', line 102</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_extract_parts'>extract_parts</span><span class='lparen'>(</span><span class='id identifier rubyid_string'>string</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_string'>string</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>(^\w+): (.+)</span><span class='regexp_end'>/</span></span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='int'>1</span><span class='comma'>,</span> <span class='int'>2</span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="fill_in_blanks-instance_method">
+  
+    #<strong>fill_in_blanks</strong>(story, replacements)  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Replaces descriptor fields in story with user&#39;s words</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>prestory,</span>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>Array&lt;String&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>and user&#39;s words</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>final story</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/mad_libs.rb', line 128</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_fill_in_blanks'>fill_in_blanks</span><span class='lparen'>(</span><span class='id identifier rubyid_story'>story</span><span class='comma'>,</span> <span class='id identifier rubyid_replacements'>replacements</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_result'>result</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='id identifier rubyid_placeheld'>placeheld</span> <span class='op'>=</span> <span class='id identifier rubyid_story'>story</span><span class='period'>.</span><span class='id identifier rubyid_gsub'>gsub</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>\(\(.*?\)\)</span><span class='regexp_end'>/</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>_placeholder_</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_placeheld'>placeheld</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_word'>word</span><span class='op'>|</span> 
+    <span class='kw'>if</span> <span class='id identifier rubyid_word'>word</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>_placeholder_</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> 
+      <span class='id identifier rubyid_word'>word</span><span class='period'>.</span><span class='id identifier rubyid_sub!'>sub!</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>_placeholder_</span><span class='regexp_end'>/</span></span><span class='comma'>,</span> <span class='id identifier rubyid_replacements'>replacements</span><span class='period'>.</span><span class='id identifier rubyid_shift'>shift</span><span class='rparen'>)</span>
+    <span class='kw'>end</span>
+      <span class='id identifier rubyid_result'>result</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_word'>word</span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'> </span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="has_variable_name?-instance_method">
+  
+    #<strong>has_variable_name?</strong>(descriptor)  &#x21d2; <tt>Boolean</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Determines if descriptor contains a variable name in addition to term type in the format variable: term_type</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>descriptor</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Boolean</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+111
+112
+113</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/mad_libs.rb', line 111</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_has_variable_name?'>has_variable_name?</span><span class='lparen'>(</span><span class='id identifier rubyid_descriptor'>descriptor</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_descriptor'>descriptor</span><span class='period'>.</span><span class='id identifier rubyid_match?'>match?</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>^\w+:</span><span class='regexp_end'>/</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="obtain_words-instance_method">
+  
+    #<strong>obtain_words</strong>(descriptors)  &#x21d2; <tt>Array&lt;String&gt;</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Obtains words from user and propagates them to descriptor variables</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>descriptors</span>
+      
+      
+        <span class='type'>(<tt>Array&lt;String&gt;</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;String&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>all words to fill in blanks, in order</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/mad_libs.rb', line 78</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_obtain_words'>obtain_words</span><span class='lparen'>(</span><span class='id identifier rubyid_descriptors'>descriptors</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_variables'>variables</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span>
+  <span class='id identifier rubyid_words'>words</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+
+  <span class='id identifier rubyid_descriptors'>descriptors</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_descriptor'>descriptor</span><span class='op'>|</span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_variables'>variables</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span><span class='lparen'>(</span><span class='id identifier rubyid_descriptor'>descriptor</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_words'>words</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_variables'>variables</span><span class='lbracket'>[</span><span class='id identifier rubyid_descriptor'>descriptor</span><span class='rbracket'>]</span>
+    <span class='kw'>elsif</span> <span class='id identifier rubyid_has_variable_name?'><span class='object_link'><a href="#has_variable_name%3F-instance_method" title="#has_variable_name? (method)">has_variable_name?</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_descriptor'>descriptor</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_variable'>variable</span><span class='comma'>,</span> <span class='id identifier rubyid_term_type'>term_type</span> <span class='op'>=</span> <span class='id identifier rubyid_extract_parts'><span class='object_link'><a href="#extract_parts-instance_method" title="#extract_parts (method)">extract_parts</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_descriptor'>descriptor</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_word'>word</span> <span class='op'>=</span> <span class='id identifier rubyid_user_input'><span class='object_link'><a href="#user_input-instance_method" title="#user_input (method)">user_input</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_term_type'>term_type</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_variables'>variables</span><span class='lbracket'>[</span><span class='id identifier rubyid_variable'>variable</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='id identifier rubyid_word'>word</span>
+      <span class='id identifier rubyid_words'>words</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_word'>word</span>
+    <span class='kw'>else</span>
+      <span class='id identifier rubyid_word'>word</span> <span class='op'>=</span> <span class='id identifier rubyid_user_input'><span class='object_link'><a href="#user_input-instance_method" title="#user_input (method)">user_input</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_term_type'>term_type</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_words'>words</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_word'>word</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_words'>words</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="user_input-instance_method">
+  
+    #<strong>user_input</strong>(term_type)  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Receives user&#39;s chosen word for term type</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>term_type</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>user&#39;s chosen word</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+119
+120
+121
+122</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/mad_libs.rb', line 119</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_user_input'>user_input</span><span class='lparen'>(</span><span class='id identifier rubyid_term_type'>term_type</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Enter </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_term_type'>term_type</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+  <span class='id identifier rubyid_gets'>gets</span><span class='period'>.</span><span class='id identifier rubyid_chomp'>chomp</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Wed Feb  5 19:42:31 2020 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.24 (ruby-2.5.1).
+</div>
+
+    </div>
+  </body>
+</html>
